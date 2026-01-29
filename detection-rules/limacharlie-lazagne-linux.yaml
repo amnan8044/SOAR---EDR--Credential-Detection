@@ -1,0 +1,16 @@
+op: and
+events:
+  - NEW_PROCESS
+  - EXISTING_PROCESS
+rules:
+  - op: is linux
+  - op: or
+    rules:
+      - op: contains
+        path: event/COMMAND_LINE
+        value: lazagne
+        case sensitive: false
+      - op: contains
+        path: event/COMMAND_LINE
+        value: lazagne.py
+        case sensitive: false
