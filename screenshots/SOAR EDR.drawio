@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="PGws6qDJvki4G7McB43o">
+    <mxGraphModel dx="1773" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="23pNU8uatT9UT53hjovO-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="SOAR EDR PLAYBOOK&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Slack" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Email" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-6" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-7" connectable="0" parent="23pNU8uatT9UT53hjovO-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Detection (Alert)" vertex="1">
+          <mxGeometry relative="1" x="-0.0667" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="LimaCharlie" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-8" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-9" connectable="0" parent="23pNU8uatT9UT53hjovO-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Send message with details&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.2316" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-10" connectable="0" parent="23pNU8uatT9UT53hjovO-8" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="Message with details contains:&lt;div&gt;- Time&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Computer Name&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Source IP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Process&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Command Line&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- File Path&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Sensor ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Link to the detection (if applicable)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2316" y="3" as="geometry">
+            <mxPoint x="224" y="-183" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-11" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-12" connectable="0" parent="23pNU8uatT9UT53hjovO-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Send message with details" vertex="1">
+          <mxGeometry relative="1" x="-0.1022" y="3" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-14" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-15" connectable="0" parent="23pNU8uatT9UT53hjovO-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Does the user want to isolate machine?" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Tine" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-17" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="23pNU8uatT9UT53hjovO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-19" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User Prompt" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-21" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="23pNU8uatT9UT53hjovO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Yes" vertex="1">
+          <mxGeometry height="90" width="100" x="260" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-31" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="23pNU8uatT9UT53hjovO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-32" connectable="0" parent="23pNU8uatT9UT53hjovO-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="the computer was not isolated, please investigate" vertex="1">
+          <mxGeometry relative="1" x="0.4703" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="No" vertex="1">
+          <mxGeometry height="90" width="100" x="530" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-28" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="23pNU8uatT9UT53hjovO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-29" connectable="0" parent="23pNU8uatT9UT53hjovO-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Isolation status &amp;amp; &quot;The computer has been isolated &quot;" vertex="1">
+          <mxGeometry relative="1" x="-0.0154" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="LimaCharlie" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-23" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="23pNU8uatT9UT53hjovO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-33" connectable="0" parent="23pNU8uatT9UT53hjovO-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.136" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-22" parent="1" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" value="Infected PC" vertex="1">
+          <mxGeometry height="70" width="100" x="-80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-24" parent="1" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" value="" vertex="1">
+          <mxGeometry height="70" width="100" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-25" edge="1" parent="1" source="23pNU8uatT9UT53hjovO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="23pNU8uatT9UT53hjovO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-26" connectable="0" parent="23pNU8uatT9UT53hjovO-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Isolate machine" vertex="1">
+          <mxGeometry relative="1" x="0.0533" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Slack" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="23pNU8uatT9UT53hjovO-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Slack" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
